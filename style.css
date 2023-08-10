@@ -1,0 +1,103 @@
+body {
+    width:100%;
+    height:100vh;
+    font-family: sans-serif;
+    background: #4C4C78
+}
+.nav {
+    margin:  0 7rem;
+    padding-top: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav .logo h2{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: aliceblue;
+}
+.nav  img{
+    width: 50%;
+    height: 80%;
+    border-radius: 10px 15px;
+}
+.nav  .navigation ul{
+    display: flex;
+    flex-direction: row;
+}
+.nav  .navigation ul li {
+    list-style: none;
+    padding:  0 1rem;
+}
+
+.nav  .navigation ul li a {
+    text-decoration: none;
+    font-size:  0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    transition: 0.35s ease;
+
+}
+.nav  .navigation ul li a:hover{
+    color: #0ea5e7;
+}
+.nav  .navigation ul li a span {
+    font-size: 0.8rem;
+    border:  1px solid  #6927ff;
+    padding: 12px 20px;
+    background-color: #6927ff;
+    border-radius: 5px;
+    color: white;
+}
+
+.Home{
+    margin: 0 7rem;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Home .Text{
+    width: 30%;
+
+}
+.Home .Text h5{
+    font-size:  1rem;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: thistle ;
+}
+.Home .Text p {
+    font-size:  1rem;
+    letter-spacing: 1px;
+    color: aliceblue;
+    line-height: 30px;
+    padding-bottom: 10px;
+
+}
+.Home .back{
+    width: 52%;
+}
+
+.Home .back img {
+    width: 100%;
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+.Home  .Text button{
+    background-color: burlywood;
+    border: 1px solid #4C4C78;
+    font-size: small;
+    padding: 20px 25px;
+    border-radius: 30px; 
+    cursor: pointer;
+    transition: 0.2s ease;
+    box-shadow: 0px 15px 30px -12px rgb(0, 0, 0 20);
+}
+.Home  .Text button:hover{
+    background: greenyellow;
+
+}
